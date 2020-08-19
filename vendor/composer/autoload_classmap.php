@@ -18,6 +18,7 @@ return array(
     'App\\Http\\Controllers\\AgentController' => $baseDir . '/app/Http/Controllers/AgentController.php',
     'App\\Http\\Controllers\\AppearanceController' => $baseDir . '/app/Http/Controllers/AppearanceController.php',
     'App\\Http\\Controllers\\ClientController' => $baseDir . '/app/Http/Controllers/ClientController.php',
+    'App\\Http\\Controllers\\ContactController' => $baseDir . '/app/Http/Controllers/ContactController.php',
     'App\\Http\\Controllers\\Controller' => $baseDir . '/app/Http/Controllers/Controller.php',
     'App\\Http\\Controllers\\DocumentController' => $baseDir . '/app/Http/Controllers/DocumentController.php',
     'App\\Http\\Controllers\\LogController' => $baseDir . '/app/Http/Controllers/LogController.php',
