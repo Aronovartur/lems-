@@ -16,6 +16,13 @@ class CreateMattersTable extends Migration
         Schema::create('matters', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            $table->String('name');
+            $table->text('description');
+            $table->unsignedBigInteger('client');
+
+            $table->foreign('client')->references('id')->on('clients')->onDelete('cascade');
+
+
         });
     }
 
